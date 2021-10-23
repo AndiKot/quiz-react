@@ -85,6 +85,10 @@ export default class Quiz extends Component {
         }, 700);
     }
 
+    componentDidMount() {
+        console.log(this.props);
+    }
+
     isQuizFinished() {
         if (this.state.activeQuestion === this.state.quiz.length - 1) {
             return true;
