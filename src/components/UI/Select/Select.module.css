@@ -1,0 +1,24 @@
+.Select {
+    margin-bottom: 15px;
+}
+
+.Select select {
+    display: block;
+    width: 100%;
+    padding: 5px 8px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    outline: none;
+
+}
+
+.Select select:focus {
+    box-shadow: 0 0 4px 2px #4ea8de;
+}
+
+.Select label {
+    display: block;
+    margin-bottom: 3px;
+    padding: 0;
+    font-weight: bold;
+}
